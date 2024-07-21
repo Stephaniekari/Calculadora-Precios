@@ -63,3 +63,9 @@ body {
     color: #000; /* Cambia el color a negro */
     font-weight: bold; /* Cambia el texto a negrita */
 }
+
+#finalPrice {
+    font-size: 1.5em;
+    color: #000; /* Cambia el color a negro */
+    font-weight: bold; /* Cambia el texto a negrita */
+}
