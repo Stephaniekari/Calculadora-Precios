@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora de Precios</h2>
+        <label for="price">Precio en Pesos:</label>
+        <input type="number" id="price" placeholder="Ingrese el precio en pesos">
+        
+        <label for="exchangeRate">Tasa de Cambio:</label>
+        <input type="number" id="exchangeRate" placeholder="Tasa de cambio a Quetzales" value="0.41">
+        
+        <label for="profitMargin">Margen de Ganancia (%):</label>
+        <input type="number" id="profitMargin" placeholder="Ingrese el margen de ganancia" value="20">
+        
+        <button onclick="calculatePrice()">Calcular</button>
+        
+        <h3>Precio Final en Quetzales:</h3>
+        <p id="finalPrice">0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
