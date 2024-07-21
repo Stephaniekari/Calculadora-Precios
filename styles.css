@@ -20,7 +20,7 @@ body {
 }
 
 .calculator img.logo {
-    max-width: 100px;
+    max-width: 100px; /* Reduce el tamaño del logotipo */
     margin-bottom: 20px;
 }
 
